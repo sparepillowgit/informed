@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google" value="notranslate">
+  <title>Informed - UK's #152 Site for News</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/51689d515c.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round|Quicksand|Quicksand:700">
+  <link rel="icon" href="images/icon.png" sizes="256x256" type="image/png">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/myjs.js"></script>
+</head>
+
+<body>
+
+  <div class="main">
+
+    <nav class="navbar fixed-top navbar-toggleable-sm navbar-light">
+      <button class="navbar-toggler navbar-toggler-right toggle-custom" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <h1 class="navbar-brand brand"><img src="images/logo.png" class="logo"></h1>
+      <div class="collapse navbar-collapse text-center navbar-collapse-custom" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <p class="nav-link" id="cat-film">Film <i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i></p>
+          </li>
+          <li class="nav-item">
+            <p class="nav-link" id="cat-sport" href="#">Sport <i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i></p>
+          </li>
+          <li class="nav-item">
+            <p class="nav-link" id="cat-tv" href="#">TV <i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i></p>
+          </li>
+          <li class="nav-item">
+            <p class="nav-link" id="cat-tech" href="#">Tech <i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i></p>
+          </li>
+          <li class="nav-item">
+            <p class="nav-link" id="cat-business" href="#">Business <i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i></p>
+          </li>
+          <li class="nav-item">
+            <p class="nav-link" id="cat-uk" href="#">UK <i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i></p>
+          </li>
+          <li class="nav-item">
+            <p class="nav-link" id="cat-music" href="#">Music <i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i></p>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container news text-center">
+
+      <div class="row newsrow">
+
+        <div class="col-md-2">
+
+          <div class="infobox info">
+
+            <img src="images/info-trending.png" alt="Avengers" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Today</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Submit <i class="fa fa-envelope fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox tv">
+
+            <img src="images/mwilliams.jpg" alt="Maisie Williams" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Williams leaving Game of Thrones.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox business">
+
+            <img src="images/tesco.jpg" alt="Tesco" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Waitrose blames Tesco for price hike.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox music">
+
+            <img src="images/samsmith.jpg" alt="Sam Smith" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Sam Smith happy with life in Bristol.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox sport">
+
+            <img src="images/lewishamilton.jpg" alt="Lewis Hamilton" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Lewis Hamilton set to retire in 2019.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox uk">
+
+            <img src="images/obama.jpg" alt="Obama" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Obama regrets not selling Alaska.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row newsrow">
+
+        <div class="col-md-2">
+
+          <div class="newsbox sport heightref">
+
+            <img src="images/rooney.jpg" alt="Rooney" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Rooney ends drought at Stamford Bridge.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox tech">
+
+            <img src="images/ipad.jpg" alt="iPad" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">No room for tablets after phablets.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox uk">
+
+            <img src="images/williamkate.jpg" alt="Royal Couple" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Royal couple deny third baby rumours.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox film">
+
+            <img src="images/hangover.jpg" alt="The Hangover" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">The Hangover spin-off details leaked.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox tech">
+
+            <img src="images/pixel.jpg" alt="Pixel" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Next Pixel won't include charger.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox tv">
+
+            <img src="images/stephenmerchant.jpg" alt="Stephen Merchant" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Stephen Merchant to appear in Eastenders.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row newsrow">
+
+        <div class="col-md-2">
+
+          <div class="newsbox uk">
+
+            <img src="images/cameron.jpg" alt="David Camero" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">David Cameron on Brexit issues.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox business">
+
+            <img src="images/highstreet.jpg" alt="Highstreet" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">More local businesses are failing.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox tv">
+
+            <img src="images/groening.jpg" alt="Matt Groening" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">The Simpsons nominated for best series.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox sport">
+
+            <img src="images/federer.jpg" alt="Federer" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Federer to miss French Open due to injury.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox music">
+
+            <img src="images/adele.jpg" alt="Adele" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Adele cancels European tour.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox film">
+
+            <img src="images/ford.jpg" alt="Harrison Ford" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Harrison Ford cameo in Han Solo spin-off.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row newsrow">
+
+        <div class="col-md-2">
+
+          <div class="newsbox tech">
+
+            <img src="images/hoverboard.jpg" alt="Hoverboard" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Hoverboards will not replace walking.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox music">
+
+            <img src="images/taylorswift.jpg" alt="Taylor Swift" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Taylor Swift isn't ready for motherhood.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox film">
+
+            <img src="images/abrams.jpg" alt="Abrams" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Abrams defends Star Wars helicopter shot.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox business">
+
+            <img src="images/kfc.jpg" alt="kfc" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">KFC ranked best chicken in the world.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox tv">
+
+            <img src="images/karl.jpg" alt="Karl Pilkington" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Karl Pilkington to judge in new talent show.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox uk">
+
+            <img src="images/londonbridge.jpg" alt="London Bridge" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">London bridge is falling down.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row newsrow">
+
+        <div class="col-md-2">
+
+          <div class="newsbox film">
+
+            <img src="images/daddario.jpg" alt="Alexandra Daddario" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Daddario to star in Forest Gump remake.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox tv">
+
+            <img src="images/cumberbatch.jpg" alt="Cumberbatch" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Benedict Cumberbatch leaves Sherlock.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox sport">
+
+            <img src="images/messi.jpg" alt="Lionel Messi" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Lionel Messi moves to China in mega deal.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox music">
+
+            <img src="images/bastille.jpg" alt="Bastille" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Bastille spotted in Ireland after Asia tour.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="newsbox tech">
+
+            <img src="images/fitbit.jpg" alt="Fitbit" class="img-fluid newspic">
+
+            <div class="content">
+
+              <p class="headline">Fitbit has been selling your walking routes.</p>
+
+            </div>
+
+            <div class="share">
+
+              <button type="button">Share <i class="fa fa-share-alt-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2">
+
+          <div class="infobox info">
+
+            <img src="images/info-more.png" alt="Avengers" class="img-fluid newspic">
+
+            <div class="share">
+
+              <button type="button">More News <i class="fa fa-plus-square fa-lg" aria-hidden="true"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container-fluid feature text-center">
+
+    <div class="container valign">
+
+      <div class="row">
+
+        <div class="col-md-8 offset-md-2">
+
+          <p class="heading">Get news in your inbox.</p>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4 offset-md-4">
+
+          <div class="input-group mysearch">
+            <input type="text" class="form-control find" id="focusloc" placeholder="Enter your e-mail address.">
+            <span class="input-group-btn">
+              <button class="btn btn-secondary go" type="button"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></button>
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="support">
+
+    <div class="container sources text-center">
+
+      <div class="row">
+
+        <div class="col-md-2">
+
+          <img src="images/theguardian.png" alt="The Independent" class="img-fluid">
+
+        </div>
+
+        <div class="col-md-2">
+
+          <img src="images/bbc.png" alt="The Independent" class="img-fluid">
+
+        </div>
+
+        <div class="col-md-2">
+
+          <img src="images/theindependent.png" alt="The Independent" class="img-fluid">
+
+        </div>
+
+        <div class="col-md-2">
+
+          <img src="images/thetimes.png" alt="The Independent" class="img-fluid">
+
+        </div>
+
+        <div class="col-md-2">
+
+          <img src="images/thetelegraph.png" alt="The Independent" class="img-fluid">
+
+        </div>
+
+        <div class="col-md-2">
+
+          <img src="images/walesonline.png" alt="The Independent" class="img-fluid">
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 co">
+
+          <ul>
+            <li class="brand"><img src="images/logo-invert.png" class="logo"></li>
+            <li class="heading">&copy; 2017</li>
+          </ul>
+
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+        </div>
+
+        <div class="col-md-4 offset-md-4 text-right">
+
+          <ul class="social">
+            <li><a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i></a></li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
